@@ -551,6 +551,18 @@ function DiscordLib:Window(text)
 	UsernameText.TextColor3 = Color3.fromRGB(126, 130, 136)
 	UsernameText.TextSize = 11.000
 	UsernameText.TextXAlignment = Enum.TextXAlignment.Left
+    
+    UsernameText.Name = "EmailText"
+	UsernameText.Parent = UserSettingsPad
+	UsernameText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	UsernameText.BackgroundTransparency = 1.000
+	UsernameText.Position = UDim2.new(0.0419999994, 0, 0.154714286, 0)
+	UsernameText.Size = UDim2.new(0, 65, 0, 19)
+	UsernameText.Font = Enum.Font.GothamBold
+	UsernameText.Text = "EMAIL"
+	UsernameText.TextColor3 = Color3.fromRGB(126, 130, 136)
+	UsernameText.TextSize = 11.000
+	UsernameText.TextXAlignment = Enum.TextXAlignment.Left
 
 	UserSettingsPadUserTag.Name = "UserSettingsPadUserTag"
 	UserSettingsPadUserTag.Parent = UserSettingsPad
@@ -660,7 +672,7 @@ function DiscordLib:Window(text)
 	ChangeAvatarText.BackgroundTransparency = 1.000
 	ChangeAvatarText.Size = UDim2.new(0, 71, 0, 71)
 	ChangeAvatarText.Font = Enum.Font.GothamBold
-	ChangeAvatarText.Text = "CHAGNE    AVATAR"
+	ChangeAvatarText.Text = "CHANGE    AVATAR"
 	ChangeAvatarText.TextColor3 = Color3.fromRGB(255, 255, 255)
 	ChangeAvatarText.TextSize = 11.000
 	ChangeAvatarText.TextWrapped = true
@@ -1118,7 +1130,7 @@ function DiscordLib:Window(text)
 	DiscordInfo.Position = UDim2.new(0.304721028, 0, 0.821333349, 0)
 	DiscordInfo.Size = UDim2.new(0, 133, 0, 44)
 	DiscordInfo.Font = Enum.Font.Gotham
-	DiscordInfo.Text = "Stable 1.0.0 (00001)  Host 0.0.0.1                Roblox Lua Engine    "
+	DiscordInfo.Text = "Stable 146284 (57b3d6d)  Host 1.0.9006                GNU/Roblox (10.0.19042)    "
 	DiscordInfo.TextColor3 = Color3.fromRGB(101, 108, 116)
 	DiscordInfo.TextSize = 13.000
 	DiscordInfo.TextWrapped = true
@@ -1132,7 +1144,7 @@ function DiscordLib:Window(text)
 	CurrentSettingOpen.Position = UDim2.new(1.07294846, 0, 0.0450000018, 0)
 	CurrentSettingOpen.Size = UDim2.new(0, 65, 0, 19)
 	CurrentSettingOpen.Font = Enum.Font.GothamBlack
-	CurrentSettingOpen.Text = "MY ACCOUNT"
+	CurrentSettingOpen.Text = "My Account"
 	CurrentSettingOpen.TextColor3 = Color3.fromRGB(255, 255, 255)
 	CurrentSettingOpen.TextSize = 14.000
 	CurrentSettingOpen.TextXAlignment = Enum.TextXAlignment.Left
