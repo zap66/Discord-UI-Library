@@ -551,18 +551,6 @@ function DiscordLib:Window(text)
 	UsernameText.TextColor3 = Color3.fromRGB(126, 130, 136)
 	UsernameText.TextSize = 11.000
 	UsernameText.TextXAlignment = Enum.TextXAlignment.Left
-    
-    UsernameText.Name = "EmailText"
-	UsernameText.Parent = UserSettingsPad
-	UsernameText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	UsernameText.BackgroundTransparency = 1.000
-	UsernameText.Position = UDim2.new(0.0419999994, 0, 0.154714286, 0)
-	UsernameText.Size = UDim2.new(0, 65, 0, 19)
-	UsernameText.Font = Enum.Font.GothamBold
-	UsernameText.Text = "EMAIL"
-	UsernameText.TextColor3 = Color3.fromRGB(126, 130, 136)
-	UsernameText.TextSize = 11.000
-	UsernameText.TextXAlignment = Enum.TextXAlignment.Left
 
 	UserSettingsPadUserTag.Name = "UserSettingsPadUserTag"
 	UserSettingsPadUserTag.Parent = UserSettingsPad
