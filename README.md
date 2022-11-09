@@ -6,4 +6,4 @@ This github repository holds old UI Libraries from when I was scripting in roblo
 > #### Discord UI Library
 
 ### Documentation
-The documentation is shown in each folder of the libraries
+The documentation is shown in each folder of the libraries.
