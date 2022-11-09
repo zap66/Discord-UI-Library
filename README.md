@@ -3,7 +3,7 @@ This github repository holds old UI Libraries from when I was scripting in roblo
 
 ## UI Libraries found in this repository
 > #### Flux UI Library <br />
-> #### Discord UI Library <br />
+> #### Discord UI Library
 
 ### Documentation
 The documentation is shown in each folder of the libraries
